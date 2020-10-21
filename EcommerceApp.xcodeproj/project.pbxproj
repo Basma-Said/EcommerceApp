@@ -3,7 +3,7 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 50;
+	objectVersion = 51;
 	objects = {
 
 /* Begin PBXBuildFile section */
@@ -19,6 +19,16 @@
 		281FCEE62536D1A000087291 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 281FCEE52536D1A000087291 /* Assets.xcassets */; };
 		281FCEE92536D1A000087291 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 281FCEE72536D1A000087291 /* LaunchScreen.storyboard */; };
 		281FCF172536D29300087291 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 281FCEE52536D1A000087291 /* Assets.xcassets */; };
+		28515857254007A600C9C791 /* Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 28515856254007A600C9C791 /* Extensions.swift */; };
+		2851585F2540473F00C9C791 /* Constant.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2851585E2540473F00C9C791 /* Constant.swift */; };
+		2851586825404CBA00C9C791 /* RoundedView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2851586725404CBA00C9C791 /* RoundedView.swift */; };
+		285F5C52253B2095008F5270 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 285F5C51253B2095008F5270 /* GoogleService-Info.plist */; };
+		285F5CE6253B2B1D008F5270 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 285F5CE5253B2B1D008F5270 /* GoogleService-Info.plist */; };
+		2883712F2538844100F4CE61 /* LoginStoryboard.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2883712E2538844100F4CE61 /* LoginStoryboard.storyboard */; };
+		28D0176A253F3B4B00334FD3 /* LoginVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 28D01769253F3B4B00334FD3 /* LoginVC.swift */; };
+		28D01779253F3B7900334FD3 /* RegisterVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 28D01778253F3B7900334FD3 /* RegisterVC.swift */; };
+		454076F281C17BDE1FF2323A /* Pods_EcommerceApp.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CD51E550072A16271A5FD186 /* Pods_EcommerceApp.framework */; };
+		5726BE2A13A0A8CC311686B2 /* Pods_EcommerceAdmin.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0A01FD7ED12DDBF5FFE9A69F /* Pods_EcommerceAdmin.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -53,6 +63,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		0A01FD7ED12DDBF5FFE9A69F /* Pods_EcommerceAdmin.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_EcommerceAdmin.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		281FCEA02536D06700087291 /* EcommerceApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = EcommerceApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		281FCEA32536D06700087291 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		281FCEA52536D06700087291 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -72,6 +83,19 @@
 		281FCEEA2536D1A000087291 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		281FCEEF2536D1A000087291 /* EcommerceAdminTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = EcommerceAdminTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		281FCEFA2536D1A000087291 /* EcommerceAdminUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = EcommerceAdminUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		28515856254007A600C9C791 /* Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Extensions.swift; sourceTree = "<group>"; };
+		2851585E2540473F00C9C791 /* Constant.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Constant.swift; sourceTree = "<group>"; };
+		2851586725404CBA00C9C791 /* RoundedView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RoundedView.swift; sourceTree = "<group>"; };
+		285F5C51253B2095008F5270 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
+		285F5CE5253B2B1D008F5270 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
+		2883712E2538844100F4CE61 /* LoginStoryboard.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = LoginStoryboard.storyboard; sourceTree = "<group>"; };
+		28D01769253F3B4B00334FD3 /* LoginVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginVC.swift; sourceTree = "<group>"; };
+		28D01778253F3B7900334FD3 /* RegisterVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RegisterVC.swift; sourceTree = "<group>"; };
+		34ED9C4359D8B4C8CF732325 /* Pods-EcommerceApp.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-EcommerceApp.debug.xcconfig"; path = "Target Support Files/Pods-EcommerceApp/Pods-EcommerceApp.debug.xcconfig"; sourceTree = "<group>"; };
+		63D69F499E36146B5783E5CF /* Pods-EcommerceApp.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-EcommerceApp.release.xcconfig"; path = "Target Support Files/Pods-EcommerceApp/Pods-EcommerceApp.release.xcconfig"; sourceTree = "<group>"; };
+		84462FEBBC29C5D7BADDD730 /* Pods-EcommerceAdmin.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-EcommerceAdmin.debug.xcconfig"; path = "Target Support Files/Pods-EcommerceAdmin/Pods-EcommerceAdmin.debug.xcconfig"; sourceTree = "<group>"; };
+		AD20492923F4B697D0680FF2 /* Pods-EcommerceAdmin.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-EcommerceAdmin.release.xcconfig"; path = "Target Support Files/Pods-EcommerceAdmin/Pods-EcommerceAdmin.release.xcconfig"; sourceTree = "<group>"; };
+		CD51E550072A16271A5FD186 /* Pods_EcommerceApp.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_EcommerceApp.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -79,6 +103,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				454076F281C17BDE1FF2323A /* Pods_EcommerceApp.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -100,6 +125,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				5726BE2A13A0A8CC311686B2 /* Pods_EcommerceAdmin.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -120,6 +146,15 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		26BD20CF9DA0D0FCFC6EB705 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				0A01FD7ED12DDBF5FFE9A69F /* Pods_EcommerceAdmin.framework */,
+				CD51E550072A16271A5FD186 /* Pods_EcommerceApp.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 		281FCE972536D06700087291 = {
 			isa = PBXGroup;
 			children = (
@@ -127,6 +162,8 @@
 				281FCEA22536D06700087291 /* EcommerceApp */,
 				281FCEDB2536D19E00087291 /* EcommerceAdmin */,
 				281FCEA12536D06700087291 /* Products */,
+				2FCAF83820064BE227134826 /* Pods */,
+				26BD20CF9DA0D0FCFC6EB705 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -146,11 +183,11 @@
 		281FCEA22536D06700087291 /* EcommerceApp */ = {
 			isa = PBXGroup;
 			children = (
-				281FCEA32536D06700087291 /* AppDelegate.swift */,
-				281FCEA52536D06700087291 /* SceneDelegate.swift */,
-				281FCEA72536D06700087291 /* ViewController.swift */,
-				281FCEA92536D06700087291 /* Main.storyboard */,
-				281FCEAE2536D06800087291 /* LaunchScreen.storyboard */,
+				28D01767253F3AD400334FD3 /* Model */,
+				28D01766253F3AC100334FD3 /* View */,
+				28D01765253F3AB200334FD3 /* Controller */,
+				28D01768253F3AF300334FD3 /* Storyboards */,
+				285F5C51253B2095008F5270 /* GoogleService-Info.plist */,
 				281FCEB12536D06800087291 /* Info.plist */,
 			);
 			path = EcommerceApp;
@@ -164,6 +201,7 @@
 				281FCEE02536D19E00087291 /* ViewController.swift */,
 				281FCEE22536D19E00087291 /* Main.storyboard */,
 				281FCEE72536D1A000087291 /* LaunchScreen.storyboard */,
+				285F5CE5253B2B1D008F5270 /* GoogleService-Info.plist */,
 				281FCEEA2536D1A000087291 /* Info.plist */,
 			);
 			path = EcommerceAdmin;
@@ -172,9 +210,75 @@
 		281FCF102536D1F100087291 /* Shared */ = {
 			isa = PBXGroup;
 			children = (
+				2851586625404CA900C9C791 /* View */,
+				285158552540078300C9C791 /* Utility */,
 				281FCEE52536D1A000087291 /* Assets.xcassets */,
 			);
 			path = Shared;
+			sourceTree = "<group>";
+		};
+		285158552540078300C9C791 /* Utility */ = {
+			isa = PBXGroup;
+			children = (
+				28515856254007A600C9C791 /* Extensions.swift */,
+				2851585E2540473F00C9C791 /* Constant.swift */,
+			);
+			path = Utility;
+			sourceTree = "<group>";
+		};
+		2851586625404CA900C9C791 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				2851586725404CBA00C9C791 /* RoundedView.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		28D01765253F3AB200334FD3 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				281FCEA32536D06700087291 /* AppDelegate.swift */,
+				281FCEA52536D06700087291 /* SceneDelegate.swift */,
+				281FCEA72536D06700087291 /* ViewController.swift */,
+				28D01769253F3B4B00334FD3 /* LoginVC.swift */,
+				28D01778253F3B7900334FD3 /* RegisterVC.swift */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		28D01766253F3AC100334FD3 /* View */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		28D01767253F3AD400334FD3 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		28D01768253F3AF300334FD3 /* Storyboards */ = {
+			isa = PBXGroup;
+			children = (
+				281FCEA92536D06700087291 /* Main.storyboard */,
+				281FCEAE2536D06800087291 /* LaunchScreen.storyboard */,
+				2883712E2538844100F4CE61 /* LoginStoryboard.storyboard */,
+			);
+			path = Storyboards;
+			sourceTree = "<group>";
+		};
+		2FCAF83820064BE227134826 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				84462FEBBC29C5D7BADDD730 /* Pods-EcommerceAdmin.debug.xcconfig */,
+				AD20492923F4B697D0680FF2 /* Pods-EcommerceAdmin.release.xcconfig */,
+				34ED9C4359D8B4C8CF732325 /* Pods-EcommerceApp.debug.xcconfig */,
+				63D69F499E36146B5783E5CF /* Pods-EcommerceApp.release.xcconfig */,
+			);
+			path = Pods;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -184,9 +288,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 281FCECA2536D06900087291 /* Build configuration list for PBXNativeTarget "EcommerceApp" */;
 			buildPhases = (
+				75BB1668723D0E3DF0141B54 /* [CP] Check Pods Manifest.lock */,
 				281FCE9C2536D06700087291 /* Sources */,
 				281FCE9D2536D06700087291 /* Frameworks */,
 				281FCE9E2536D06700087291 /* Resources */,
+				823AF56CD9DCF59C911E8A1C /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -237,9 +343,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 281FCF012536D1A000087291 /* Build configuration list for PBXNativeTarget "EcommerceAdmin" */;
 			buildPhases = (
+				695E79B0641B8BAC4F9E59B0 /* [CP] Check Pods Manifest.lock */,
 				281FCED62536D19E00087291 /* Sources */,
 				281FCED72536D19E00087291 /* Frameworks */,
 				281FCED82536D19E00087291 /* Resources */,
+				969123D0E88AD59C82A7D8B6 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -349,7 +457,9 @@
 			files = (
 				281FCEB02536D06800087291 /* LaunchScreen.storyboard in Resources */,
 				281FCF172536D29300087291 /* Assets.xcassets in Resources */,
+				285F5C52253B2095008F5270 /* GoogleService-Info.plist in Resources */,
 				281FCEAB2536D06700087291 /* Main.storyboard in Resources */,
+				2883712F2538844100F4CE61 /* LoginStoryboard.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -374,6 +484,7 @@
 				281FCEE92536D1A000087291 /* LaunchScreen.storyboard in Resources */,
 				281FCEE62536D1A000087291 /* Assets.xcassets in Resources */,
 				281FCEE42536D19E00087291 /* Main.storyboard in Resources */,
+				285F5CE6253B2B1D008F5270 /* GoogleService-Info.plist in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -393,14 +504,100 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		695E79B0641B8BAC4F9E59B0 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-EcommerceAdmin-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		75BB1668723D0E3DF0141B54 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-EcommerceApp-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		823AF56CD9DCF59C911E8A1C /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-EcommerceApp/Pods-EcommerceApp-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-EcommerceApp/Pods-EcommerceApp-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-EcommerceApp/Pods-EcommerceApp-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		969123D0E88AD59C82A7D8B6 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-EcommerceAdmin/Pods-EcommerceAdmin-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-EcommerceAdmin/Pods-EcommerceAdmin-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-EcommerceAdmin/Pods-EcommerceAdmin-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		281FCE9C2536D06700087291 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				2851586825404CBA00C9C791 /* RoundedView.swift in Sources */,
+				2851585F2540473F00C9C791 /* Constant.swift in Sources */,
 				281FCEA82536D06700087291 /* ViewController.swift in Sources */,
+				28515857254007A600C9C791 /* Extensions.swift in Sources */,
 				281FCEA42536D06700087291 /* AppDelegate.swift in Sources */,
+				28D0176A253F3B4B00334FD3 /* LoginVC.swift in Sources */,
 				281FCEA62536D06700087291 /* SceneDelegate.swift in Sources */,
+				28D01779253F3B7900334FD3 /* RegisterVC.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -621,6 +818,7 @@
 		};
 		281FCECB2536D06900087291 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 34ED9C4359D8B4C8CF732325 /* Pods-EcommerceApp.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -640,6 +838,7 @@
 		};
 		281FCECC2536D06900087291 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 63D69F499E36146B5783E5CF /* Pods-EcommerceApp.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -743,6 +942,7 @@
 		};
 		281FCF022536D1A000087291 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 84462FEBBC29C5D7BADDD730 /* Pods-EcommerceAdmin.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -762,6 +962,7 @@
 		};
 		281FCF032536D1A000087291 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = AD20492923F4B697D0680FF2 /* Pods-EcommerceAdmin.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
